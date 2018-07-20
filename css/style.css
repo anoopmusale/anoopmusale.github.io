@@ -24,14 +24,15 @@ html {
 h2{
     text-transform: uppercase;
 }
+
 /*======================================HEADER==================================================================*/
 
-header{
+.header-main{
     background-color: #0984e3;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    padding-bottom: 80px;
     /*width: 90%*/
 }
 
@@ -117,9 +118,8 @@ h4{
 }
 
 .bot-row{
-    padding-top: 20%;
-    padding-bottom: 20%;
-    background-color: #0984e3;
+    margin-top: 20%;
+    margin-bottom: 20%;
 }
 
 /*================================================================SKILLS====================================================================*/
