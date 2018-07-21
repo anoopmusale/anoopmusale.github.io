@@ -59,6 +59,7 @@ h2{
     float: right;
     list-style: none;   
     margin-top: 55px;
+    margin-left: 9%;
     
 }
 
@@ -187,6 +188,88 @@ h2:after {
 }
 
 
+/*=============================================================PROJECTS=====================================================================*/
+
+.project{
+    margin-bottom: 10%;
+}
+
+.project-header{
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #80b3ff;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.proj-name{
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.title{
+    margin-top: 5%;
+    font-size: 120%;
+    color: #4a4a4a;
+}
+.mnth-year{
+    font-size: 90%;
+    
+}
+
+.proj-description{
+    color: #646464;
+}
+
+/*=============================================================PUBLICATION=====================================================================*/
+
+.publication{
+    margin-bottom: 10%;
+}
+
+.publication-header{
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #80b3ff;
+    content: " ";
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.pub-title{
+    margin-top: 3%;
+    color: dimgray;
+}
+.row pre{
+    color: darkgray;
+}
+
+
+.ul-list{
+    margin-left: 5%;
+    color: dimgray;
+    text-decoration-color: darkgray;
+}
+
+.ul-list:hover,
+.ul-list:active{
+    text-decoration: none;
+}
 
 /*=============================================================FOOTER=====================================================================*/
 
